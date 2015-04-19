@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F9CEFD781AE3824100645F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFD771AE3824100645F83 /* AppDelegate.swift */; };
-		F9CEFD7A1AE3824100645F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFD791AE3824100645F83 /* ViewController.swift */; };
 		F9CEFD7D1AE3824100645F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CEFD7B1AE3824100645F83 /* Main.storyboard */; };
 		F9CEFD7F1AE3824100645F83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CEFD7E1AE3824100645F83 /* Images.xcassets */; };
 		F9CEFD821AE3824100645F83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9CEFD801AE3824100645F83 /* LaunchScreen.xib */; };
 		F9CEFD8E1AE3824100645F83 /* self_sizing_cell_ios8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFD8D1AE3824100645F83 /* self_sizing_cell_ios8Tests.swift */; };
+		F9CEFD981AE3833700645F83 /* ATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFD971AE3833700645F83 /* ATableViewController.swift */; };
+		F9CEFD9B1AE3876D00645F83 /* ATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFD991AE3876D00645F83 /* ATableViewCell.swift */; };
+		F9CEFD9C1AE3876D00645F83 /* ATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9CEFD9A1AE3876D00645F83 /* ATableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		F9CEFD721AE3824100645F83 /* self-sizing-cell-ios8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "self-sizing-cell-ios8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEFD761AE3824100645F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9CEFD771AE3824100645F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9CEFD791AE3824100645F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9CEFD7C1AE3824100645F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9CEFD7E1AE3824100645F83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9CEFD811AE3824100645F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F9CEFD871AE3824100645F83 /* self-sizing-cell-ios8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self-sizing-cell-ios8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEFD8C1AE3824100645F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9CEFD8D1AE3824100645F83 /* self_sizing_cell_ios8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_sizing_cell_ios8Tests.swift; sourceTree = "<group>"; };
+		F9CEFD971AE3833700645F83 /* ATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATableViewController.swift; sourceTree = "<group>"; };
+		F9CEFD991AE3876D00645F83 /* ATableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATableViewCell.swift; sourceTree = "<group>"; };
+		F9CEFD9A1AE3876D00645F83 /* ATableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				F9CEFD771AE3824100645F83 /* AppDelegate.swift */,
-				F9CEFD791AE3824100645F83 /* ViewController.swift */,
 				F9CEFD7B1AE3824100645F83 /* Main.storyboard */,
 				F9CEFD7E1AE3824100645F83 /* Images.xcassets */,
 				F9CEFD801AE3824100645F83 /* LaunchScreen.xib */,
 				F9CEFD751AE3824100645F83 /* Supporting Files */,
+				F9CEFD971AE3833700645F83 /* ATableViewController.swift */,
+				F9CEFD991AE3876D00645F83 /* ATableViewCell.swift */,
+				F9CEFD9A1AE3876D00645F83 /* ATableViewCell.xib */,
 			);
 			path = "self-sizing-cell-ios8";
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				F9CEFD7D1AE3824100645F83 /* Main.storyboard in Resources */,
 				F9CEFD821AE3824100645F83 /* LaunchScreen.xib in Resources */,
 				F9CEFD7F1AE3824100645F83 /* Images.xcassets in Resources */,
+				F9CEFD9C1AE3876D00645F83 /* ATableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CEFD7A1AE3824100645F83 /* ViewController.swift in Sources */,
 				F9CEFD781AE3824100645F83 /* AppDelegate.swift in Sources */,
+				F9CEFD9B1AE3876D00645F83 /* ATableViewCell.swift in Sources */,
+				F9CEFD981AE3833700645F83 /* ATableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
